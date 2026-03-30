@@ -364,11 +364,6 @@ git clone https://github.com/eager-flipstudio/Flip-LLM
 cd index.py
 pip install -r requirements.txt
 
-export FIREBASE_URL="https://your-project-default-rtdb.firebaseio.com"
-export FIREBASE_SECRET="your_rtdb_secret"
-export MISTRAL_API_KEY="your_mistral_key"
-export GLM_API_KEY="your_glm_key"
-export NVIDIA_API_KEY="your_nvidia_key"
 
 python index.py
 ```
