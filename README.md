@@ -360,8 +360,8 @@ curl "https://llm-flip.vercel.app/glm-4v-flash/chat?text=Hello"
 ## 🛠️ Self Hosting
 
 ```bash
-git clone https://github.com/aquib/flip-llm-api
-cd flip-llm-api
+git clone https://github.com/eager-flipstudio/Flip-LLM
+cd index.py
 pip install -r requirements.txt
 
 export FIREBASE_URL="https://your-project-default-rtdb.firebaseio.com"
@@ -378,7 +378,7 @@ python index.py
 ## 📁 Project Structure
 
 ```
-flip-llm-api/
+Flip-LLM/
 ├── index.py          ← Main API (all public endpoints)
 ├── requirements.txt  ← Dependencies
 └── README.md         ← You are here
